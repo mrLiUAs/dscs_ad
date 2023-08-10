@@ -102,11 +102,11 @@ strong {
 
 .overlay__btn {
   width: 50%;
-  height: 2.5rem;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.875rem;
+  font-size: 3rem;
   font-weight: 600;
   color: var(--light-color);
   background: var(--dark-color);

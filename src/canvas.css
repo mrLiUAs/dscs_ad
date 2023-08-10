@@ -69,8 +69,8 @@ strong {
 }
 
 .overlay__title {
-  font-size: 1.875rem;
-  line-height: 2.75rem;
+  font-size: 4rem;
+  /* line-height: 2.75rem; */
   font-weight: 700;
   letter-spacing: -0.025em;
   margin-bottom: 2rem;

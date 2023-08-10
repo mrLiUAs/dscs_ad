@@ -1,41 +1,28 @@
-<!-- Canvas -->
-<canvas class="orb-canvas"></canvas>
-<!-- Overlay -->
-<!-- <div class="overlay"> -->
-<div>
-  <!-- Overlay inner wrapper -->
-  <!-- <div class="overlay__inner"> -->
-    <center>
-      <!-- Title -->
-      <!-- <h1 class="overlay__title" style="margin-bottom: auto;">
-        即刻加入
-        <span class="text-gradient">程式研究社</span> 
-      </h1> -->
-      <h3 style="font-size: 5rem;" class="text-gradient">程式研究社</h3>
-      <h1 style="font-size: 7rem;">就。很。<span class="text-gradient">Pro</span>。</h1>
-      <!-- Description -->
-      <!-- <p style="max-width: 80%; font-size: 3rem;">
-        In this tutorial we will be creating a generative “orb” animation
-        using pixi.js, picking some lovely random colors and pulling it all
-        together in a nice frosty UI.
-        <strong>We're gonna talk accessibility, too.</strong>
-      </p> -->
-      <!-- Buttons -->
-      <div style="margin-top: 3rem;" class="overlay__btns">
-        <a style="font-size: 2rem; color: blue; text-decoration: underline;" href="https://discord.gg/5GpgRy9Utj">Discord</a>
-        <button class="overlay__btn overlay__btn--transparent">
-          <a href="https://georgefrancis.dev/writing/create-a-generative-landing-page-and-webgl-powered-background/" target="_blank">
-            Discord
-          </a>
-        </button>
+<!-- https://codepen.io/georgedoescode/pen/XWNmvro -->
+<html>
+  <head>
+    <!-- Javascripts libs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  </head>
   
-        <button class="overlay__btn">
-          立即加入
-        </button>
+  <!-- Canvas start -->
+  <canvas class="orb-canvas"></canvas>
+  <center>
+    <!-- Title -->
+    <h3 style="font-size: 5rem;" class="text-gradient">程式研究社</h3>
+    <h1 style="font-size: 7rem;" id="slogan">就。很。<span class="text-gradient">Pro</span>。</h1>
+    <div style="justify-items: center; margin-top: 3rem; font-size: 4rem;" class="overlay__btns">
+      <a style="justify-content: 25; font-size: 2rem; color: #0066CC;" href="http://discord.gg/5GpgRy9Utj">加入 Discord ></a>
+      <button class="overlay__btn">加入我們</button>
+    </div>
+    <br><br><br><br><br><br><br>
+    <h1 class="overlay__title">hi</h1>
+  </center>
 
-    </center>
-<link rel="stylesheet" type="text/css" href="./index.css" />
-<script src="./index.js" type="module"></script>
-    <!-- </div> -->
-  </div>
-</div>
+  <!-- Template scripts & css -->
+  <footer>
+    <link rel="stylesheet" type="text/css" href="./src/canvas.css"/>
+    <script src="./src/canvas.js" type="module"></script>
+    <srcipt src="./src/index.js"></srcipt>
+  </footer>
+</html>

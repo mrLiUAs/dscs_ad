@@ -9,6 +9,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" type="text/css"   href="./src/canvas.css" />
+  <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
 </head>
 
 <body>
@@ -16,20 +18,22 @@
 <canvas class="orb-canvas"></canvas>
   <center>
     <!-- Title -->
-    <div style="position: relative; min-height: calc(100vh - 10vh); padding-top: calc(50vh - 14rem);">
-      <h3 style="font-size: 5rem;" class="text-gradient">程式研究社</h3>
-      <h1 style="font-size: 7rem;" id="slogan">就。很。<span class="text-gradient">Pro</span>。</h1>
-      <div style="margin-top: 3rem; font-size: 4rem;;" class="overlay__btns">
-        <a style="width: 7em; font-size: 2rem; position: relative; color: #0066CC; margin-right: 2rem;" href="http://discord.gg/5GpgRy9Utj">加入 Discord ></a>
-        <div style="min-width: 7rem; margin-left: 2rem;">
+    <div style="position: relative; min-height: calc(100vh - 9vh); padding-top: calc(50vh - 14rem);">
+      <h3 style="font-size: 5rem; font-weight: bold;" class="text-gradient">程式研究社</h3>
+      <h1 style="font-size: 7rem; font-weight: bold;" id="slogan">就。很。<span class="text-gradient">Pro</span>。</h1>
+      <div class="row" style="margin-top: 3rem; font-size: 4rem;">
+        <div class="col">
+          <a style="width: 7em; font-size: 2rem; position: relative; color: #0066CC; margin-right: 2rem;" href="http://discord.gg/5GpgRy9Utj">加入 Discord ></a>
+        </div>
+        <div class="col">
           <button class="overlay__btn" style="width: 5em; position: relative;">加入我們</button>
         </div>
       </div>
     </div>
-    <a href="#jump1" style="font-size: large; height: 8vh;">
+    <a href="#scrolldown" style="font-size: large; height: 9vh;">
       <p style="height: 100%;">往下看更多...</p>
     </a>
-    <div class="overlay" style="top:125vh ; padding: 8rem;" id="jump1">
+    <div class="overlay" style="top:100vh ; padding: 8rem;" id="scrolldown">
       <h1 class="overlay__title">
         用 Programming
         <br>
@@ -38,33 +42,45 @@
         <span class="text-gradient">Pro Gaming</span>
       </h1>
       <div>
-        <img style="width: 80%; border-radius: 20px; margin-bottom: 2rem;" src="./src/assets/discuss.jpg" class="photo-style-1" alt="">
+        <img style="width: 80%; border-radius: 20px;" src="./src/assets/discuss.jpg" class="photo-style-1" alt="">
         <p>專業應用開發，豐富學習資源<br>只在<strong>東山程式研究社</strong></p>
       </div>
     </div>
 
-    <div style="margin: 3rem;">
-      <h1 class="overlay__title">要玩開發還是程式競賽？<br>全都要。</h1>
+    <div class="" style="margin-top: 10rem;">
+      <h1 class="overlay__title">要玩開發還是程式競賽？<br><span class="text-gradient">全都要。</span></h1>
     </div>
 
-    <div class="row">
-      <div class="col">
-        <div class="overlay"  style="padding: 5rem; text-align:center;">
-          <h1 class="overlay__title">hi</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="overlay_v" style="padding: 5rem;">
+            <h1 class="overlay__title" style="margin-bottom: 0.2rem;">開發</h1>
+            <h3 style="color: #545454;">Development</h3>
+            <p>你是否有個想架個人網站的夢？<br>想學爬蟲、大數據？<br>想要跟網路上的電神一樣自己寫程式解決任何困難？</p>
+            <p>在這裡，你的夢想將會實現！與我們一起，學習更多技能！</p>
+          </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="overlay" style="padding: 5rem;">
-          <h1 class="overlay__title">hi</h1>
+        <div class="col">
+          <div class="overlay_v" style="padding: 5rem;">
+            <h1 class="overlay__title" style="margin-bottom: 0.2rem;">算法</h1>
+            <h3 style="color: #545454;">Algorithm</h3>
+            <p>你知道同樣的程式問題，用不同的解法效率可以天差地遠嗎？</p>
+            <p>跟著我們探索算法的奧妙，無論目標資工系或想考APCS都有極大幫助！</p>
+          </div>
         </div>
       </div>
     </div>
+
+    <h1 style="margin-top: 10rem;" class="overlay__title">還在等什麼？<span class="text-gradient">馬上加入</span></h1>
+    <button onclick="location.href = 'www.yoursite.com';" class="overlay__btn" style="width: 5em; position: relative;">報名表單</button>
+    <h3 style="margin-top: 4rem;">加入Discord一起討論，不限定社員</h3>
+    <iframe src="https://discord.com/widget?id=1014909709544849408&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
   </center>
 </body>
 
 <!-- Template scripts & css -->
 <footer>
-  <link rel="stylesheet" type="text/css" href="./src/canvas.css" />
   <script src="./src/canvas.js" type="module"></script>
   <srcipt src="./src/index.js"></srcipt>
 </footer>

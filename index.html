@@ -1,16 +1,18 @@
 <!-- https://codepen.io/georgedoescode/pen/XWNmvro -->
 <html>
-
 <head>
+  <meta charset="UTF-8">
+  <title>東山程式研究社</title>
   <!-- Javascripts libs -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="./src/style.css">
 </head>
 
 <!-- Canvas start -->
 <canvas class="orb-canvas"></canvas>
 <center>
   <!-- Title -->
-  <div style="height: 100vh; padding-top: 20vh;">
+  <div style="height: auto; padding-top: 20vh; padding-bottom: 20vh;">
     <h3 style="font-size: 5rem;" class="text-gradient">程式研究社</h3>
     <h1 style="font-size: 7rem;" id="slogan">就。很。<span class="text-gradient">Pro</span>。</h1>
     <div style="margin-top: 3rem; font-size: 4rem;;" class="overlay__btns">
@@ -22,13 +24,19 @@
       <div style="min-width: 7rem; margin-left: 2rem;">
         <button class="overlay__btn" style="width: 5em; position: relative;">加入我們</button>
       </div>
+      <!-- <a href="#jump1">jumpto</a> -->
     </div>
   </div>
-  <h1 class="overlay__title">用 Programming<br>打造你的 <span class="text-gradient">Pro Gaming</span></h1>
-  <img style="width: 50%; border-radius: 20px; margin-bottom: 2rem;" src="./src/assets/discuss.jpg" alt="">
-  <p>專業應用開發，豐富學習資源，只在<strong>東山程式研究社</strong></p>
+  <div class="paragraph" id="jump1">
+    <h1 class="overlay__title">用 Programming<br>打造你的 <span class="text-gradient">Pro Gaming</span></h1>
+    <img style="width: 50%; border-radius: 20px; margin-bottom: 2rem;" src="./src/assets/discuss.jpg"
+      class="photo-style-1" alt="">
+    <p>專業應用開發，豐富學習資源，只在<strong>東山程式研究社</strong></p>
+  </div>
 
-  <h1 class="overlay__title">要玩應用還是競程？全都要。</h1>
+  <div class="paragraph">
+    <h1 class="overlay__title">要玩應用還是競程？全都要。</h1>
+  </div>
 </center>
 
 <!-- Template scripts & css -->
